@@ -1,0 +1,166 @@
+/* body{
+  background-color:rgba(146, 142, 142, 0.397) ;
+} */
+
+/* @media only screen and (min-width:) */
+
+.scrolled-nav{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 3px 10px rgba(204, 202, 202, 0.15)  ;
+  color: black;
+  transition: all 0.9s;
+}
+
+.nav-link:hover{
+  color: rgba(187, 178, 178, 0.623) !important;
+  
+}
+.nav-link{
+  font-size: 18px;
+}
+.navbar-brand{
+  margin-left: 10%;
+  font-size: 35px;
+}
+
+.carousel-item img{
+   height: 90vh;
+}
+
+.carousel-caption h5{
+  font-size: 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+.carousel-caption {
+  bottom: 400px;
+  z-index: 1;
+}
+.carousel-caption p{
+  width: 60%;
+  margin: auto;
+  font-size: 16px;
+}
+.carousel-item:before{
+   content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+   z-index: 1;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   height: 100%;
+   width: 100%;
+
+}
+
+@media only screen and (max-width:500px){
+  .carousel-caption{
+    bottom:320px ;
+  }
+  .carousel-caption h5{
+    font-size: 25px;
+  }
+  .carousel-caption p{
+    width: 100%;
+    font-size: 15px;
+  }
+ 
+}
+
+ 
+  .content-pad{
+    padding: 180px 50px;
+
+    
+  }
+  .section-pad{
+    padding: 100px 50px;
+
+  }
+  .rooms{
+    background-color:rgba(214, 205, 205, 0.5);
+   
+  }
+  .our-rooms{
+    padding-bottom: 100px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  @media only screen and (max-width:2000px) and (min-width:1100px){
+    .card{
+        width:350px ;
+    }
+  }
+  .about-desc{
+    font-family: 'Times New Roman', Times, serif;
+    /* width: 45%; */
+    color: gray;
+  }
+  /* .about-desc{
+    position: relative;
+   top: 45px;
+  left:40px ;
+  } */
+
+  
+  .features{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    
+  }
+  .svg{
+    width: 85px;
+    height: 85px;
+    color: brown;
+  }
+
+  .promo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 160px;
+    background-image: url(images/hero_1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+  }
+  /* .promo h2{
+    margin-right:100px ;
+  } */
+   .gallery h1{
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+   }
+
+   .gallery img{
+    margin-left: 0px;
+   }
+
+   
+h1{
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+.peoplesay h1{
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+
+.btn-primary {
+  color: #fff;
+  background-color: #f23a2e;
+  border-color: #f23a2e;
+
+}
+
+footer{
+  background-color: rgb(36, 23, 23);
+}
+
+.footer-para{
+  margin-top: 70px;
+}
